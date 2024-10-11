@@ -1,23 +1,31 @@
 ﻿using EmployeeWeb.ExternalServices.Contracts;
 using EmployeeWeb.Models;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 
 namespace EmployeeWeb.ExternalServices.Impl
 {
     public class EmployeeExternalService : IEmployeeExternalService
     {
         private readonly HttpClient _httpClient;
+        private readonly IConfiguration _configuration;
+        private readonly string _employeeListUrl;
+        private readonly string _employeeByIdUrl;
 
-        public EmployeeExternalService(HttpClient httpClient) 
+        public EmployeeExternalService(HttpClient httpClient, IConfiguration configuration)
         {
             _httpClient = httpClient;
+            _configuration = configuration;
+            _employeeListUrl = _configuration["ApiSettings:EmployeeApiBaseUrl"];
+            _employeeByIdUrl = _configuration["ApiSettings:EmployeeByIdUrl"];
         }
+
         public async Task<Employee> GetEmployeeById(int id)
         {
             Employee result = new Employee();
             try
             {
-                string urlRequest = $"http://hub.dummyapis.com/employee?noofRecords=1&idStarts={id}";
+                string urlRequest = $"{_employeeByIdUrl}{id}";
                 var response = await _httpClient.GetStringAsync(urlRequest);
                 if (!string.IsNullOrEmpty(response))
                 {
@@ -27,11 +35,10 @@ namespace EmployeeWeb.ExternalServices.Impl
             }
             catch (Exception ex)
             {
-                var err = ex.Message;   
+                var err = ex.Message;
                 throw;
             }
 
-                      
             return result;
         }
 
@@ -40,18 +47,18 @@ namespace EmployeeWeb.ExternalServices.Impl
             List<Employee> result = new List<Employee>();
             try
             {
-                var response = await _httpClient.GetStringAsync("http://hub.dummyapis.com/employee");
+                var response = await _httpClient.GetStringAsync(_employeeListUrl);
                 if (!string.IsNullOrEmpty(response))
                 {
                     result = JsonSerializer.Deserialize<List<Employee>>(response);
                 }
             }
-            catch (Exception ex )
+            catch (Exception ex)
             {
                 var err = ex.Message;
                 throw;
             }
-           
+
             return result;
         }
     }
