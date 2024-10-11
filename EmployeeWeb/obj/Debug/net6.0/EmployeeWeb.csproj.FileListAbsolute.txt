@@ -1,0 +1,61 @@
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\appsettings.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.staticwebassets.runtime.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.exe
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.deps.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.runtimeconfig.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.dll
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.pdb
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.AssemblyInfoInputs.cache
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.AssemblyInfo.cs
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.csproj.CoreCompileInputs.cache
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.RazorAssemblyInfo.cache
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.RazorAssemblyInfo.cs
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.EmployeeWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.EmployeeWeb.props
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeWeb.props
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EmployeeWeb.props
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\bundle\EmployeeWeb.styles.css
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\projectbundle\EmployeeWeb.bundle.scp.css
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.dll
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\refint\EmployeeWeb.dll
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.pdb
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.genruntimeconfig.cache
+C:\Users\Puli Andrea\source\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\ref\EmployeeWeb.dll
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\appsettings.Development.json
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\appsettings.json
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.staticwebassets.runtime.json
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.exe
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.deps.json
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.runtimeconfig.json
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.dll
+C:\repos\EmployeeWeb\EmployeeWeb\bin\Debug\net6.0\EmployeeWeb.pdb
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.AssemblyInfoInputs.cache
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.AssemblyInfo.cs
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.csproj.CoreCompileInputs.cache
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.RazorAssemblyInfo.cache
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.RazorAssemblyInfo.cs
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.sourcelink.json
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.build.json
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.development.json
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.EmployeeWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.build.EmployeeWeb.props
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeWeb.props
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.EmployeeWeb.props
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\staticwebassets.pack.json
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\bundle\EmployeeWeb.styles.css
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\scopedcss\projectbundle\EmployeeWeb.bundle.scp.css
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.dll
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\refint\EmployeeWeb.dll
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.pdb
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\EmployeeWeb.genruntimeconfig.cache
+C:\repos\EmployeeWeb\EmployeeWeb\obj\Debug\net6.0\ref\EmployeeWeb.dll
