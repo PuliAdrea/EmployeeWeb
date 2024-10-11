@@ -1,8 +1,82 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Employee List";
 }
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Employee List</h2>
+
+    <div class="form-inline justify-content-center mb-4">
+        <input type="text" id="employeeIdInput" class="form-control mr-2" placeholder="Enter Employee ID">
+        <button onclick="fetchEmployee()" class="btn btn-primary">Search</button>
+    </div>
+
+    <!-- Spinner -->
+    <div id="loadingSpinner" class="text-center mb-4" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div id="employeeList" class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Image</th>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Age</th>
+                    <th>Date of Birth</th>
+                    <th>Address</th>
+                    <th>Salary</th>
+                    <th>Annual Salary</th>
+                </tr>
+            </thead>
+            <tbody id="employeeTableBody">
+            </tbody>
+        </table>
+    </div>
 </div>
+
+<script>
+    function fetchEmployee() {
+        const employeeId = document.getElementById("employeeIdInput").value.trim();
+        const url = employeeId 
+            ? `http://localhost:5087/api/Employee/${employeeId}` 
+            : "http://localhost:5087/api/Employee";
+
+        document.getElementById("loadingSpinner").style.display = "block";
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const employeeTableBody = document.getElementById("employeeTableBody");
+                employeeTableBody.innerHTML = ''; 
+
+                const employees = Array.isArray(data) ? data : [data];
+
+                employees.forEach(employee => {
+                    const row = document.createElement("tr");
+
+                    row.innerHTML = `
+                        <td><img src="${employee.imageUrl}" alt="Employee Image" class="img-fluid rounded" width="60" height="60"/></td>
+                        <td>${employee.firstName} ${employee.lastName}</td>
+                        <td>${employee.email}</td>
+                        <td>${employee.contactNumber}</td>
+                        <td>${employee.age}</td>
+                        <td>${employee.dob}</td>
+                        <td>${employee.address}</td>
+                        <td>${employee.salary}</td>
+                        <td>${employee.annualSalary}</td>
+                    `;
+
+                    employeeTableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error))
+            .finally(() => {
+                document.getElementById("loadingSpinner").style.display = "none";
+            });
+    }
+</script>
