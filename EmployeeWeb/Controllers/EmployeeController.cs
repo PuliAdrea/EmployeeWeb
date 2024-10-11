@@ -21,33 +21,38 @@ namespace EmployeeWeb.Controllers
         [HttpGet]
         public async Task<IActionResult> GetEmployees()
         {
-            var employees = new List<EmployeeSalary>();
             try
             {
-               employees = await _employeeService.GetEmployeesAsync();
+                var employees = await _employeeService.GetEmployeesAsync();
+                return Ok(employees);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                return StatusCode(500, "Please try again later.");
             }
-            return Ok(employees);
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetEmployeeById(int id)
+        public async Task<IActionResult> GetEmployeeById(string id)
         {
-            var employee = new Employee();
             try
             {
-                employee = await _employeeService.GetEmployeeByIdAsync(id);
-            }
-            catch (Exception)
-            {
+                if (!int.TryParse(id, out int employeeId))
+                {
+                    return BadRequest("Invalid employee ID");
+                }
 
-                throw;
+                var employee = await _employeeService.GetEmployeeByIdAsync(employeeId);
+                if (employee == null)
+                {
+                    return NotFound($"Employee with ID {employeeId} not found.");
+                }
+                return Ok(employee);
             }
-            return Ok(employee);
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Please try again later.");
+            }
         }
 
     }

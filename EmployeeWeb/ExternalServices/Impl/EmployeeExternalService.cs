@@ -35,8 +35,7 @@ namespace EmployeeWeb.ExternalServices.Impl
             }
             catch (Exception ex)
             {
-                var err = ex.Message;
-                throw;
+                throw ex;
             }
 
             return result;
@@ -55,8 +54,7 @@ namespace EmployeeWeb.ExternalServices.Impl
             }
             catch (Exception ex)
             {
-                var err = ex.Message;
-                throw;
+                throw ex;
             }
 
             return result;
