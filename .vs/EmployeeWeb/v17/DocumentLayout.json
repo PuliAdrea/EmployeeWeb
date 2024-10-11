@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\repos\\EmployeeWeb\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\employeeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\employeeweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\services\\impl\\employeeservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\services\\impl\\employeeservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7758208F-E42F-4204-9EF0-AB74365AC1DC}|EmployeeWebTest\\EmployeeWebTest.csproj|c:\\repos\\employeeweb\\employeewebtest\\services\\employeeservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7758208F-E42F-4204-9EF0-AB74365AC1DC}|EmployeeWebTest\\EmployeeWebTest.csproj|solutionrelative:employeewebtest\\services\\employeeservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7758208F-E42F-4204-9EF0-AB74365AC1DC}|EmployeeWebTest\\EmployeeWebTest.csproj|c:\\repos\\employeeweb\\employeewebtest\\employeewebtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7758208F-E42F-4204-9EF0-AB74365AC1DC}|EmployeeWebTest\\EmployeeWebTest.csproj|solutionrelative:employeewebtest\\employeewebtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|c:\\repos\\employeeweb\\employeeweb\\models\\employeesalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C20C6C5-F61E-42E1-95C8-4075EF01F229}|EmployeeWeb\\EmployeeWeb.csproj|solutionrelative:employeeweb\\models\\employeesalary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeWeb",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\EmployeeWeb.csproj",
+              "RelativeDocumentMoniker": "EmployeeWeb\\EmployeeWeb.csproj",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\EmployeeWeb.csproj",
+              "RelativeToolTip": "EmployeeWeb\\EmployeeWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T15:58:40.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeServiceTest.cs",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWebTest\\Services\\EmployeeServiceTest.cs",
+              "RelativeDocumentMoniker": "EmployeeWebTest\\Services\\EmployeeServiceTest.cs",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWebTest\\Services\\EmployeeServiceTest.cs",
+              "RelativeToolTip": "EmployeeWebTest\\Services\\EmployeeServiceTest.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:45:04.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService .cs",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Services\\Impl\\EmployeeService .cs",
+              "RelativeDocumentMoniker": "EmployeeWeb\\Services\\Impl\\EmployeeService .cs",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Services\\Impl\\EmployeeService .cs",
+              "RelativeToolTip": "EmployeeWeb\\Services\\Impl\\EmployeeService .cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:42:34.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeWebTest",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWebTest\\EmployeeWebTest.csproj",
+              "RelativeDocumentMoniker": "EmployeeWebTest\\EmployeeWebTest.csproj",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWebTest\\EmployeeWebTest.csproj",
+              "RelativeToolTip": "EmployeeWebTest\\EmployeeWebTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-11T15:41:06.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EmployeeWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EmployeeWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T15:16:49.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeSalary.cs",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Models\\EmployeeSalary.cs",
+              "RelativeDocumentMoniker": "EmployeeWeb\\Models\\EmployeeSalary.cs",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Models\\EmployeeSalary.cs",
+              "RelativeToolTip": "EmployeeWeb\\Models\\EmployeeSalary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T15:09:18.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EmployeeWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T14:43:02.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeWeb\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\repos\\EmployeeWeb\\EmployeeWeb\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeWeb\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T14:29:11.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
